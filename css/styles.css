@@ -1,0 +1,161 @@
+body {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Title Section*/
+#title {
+  background-color: #28abb9;
+}
+
+.container {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 400px;
+}
+
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 4.5rem;
+}
+
+/* .navbar-nav{
+  margin-left: 400px;
+} */
+.navbar-item{
+padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 0% 0%;
+}
+
+/*Feature Section*/
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #a20a0a;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #dd2c00;
+}
+
+/*FTT-Slides*/
+#FTT-slides {
+  background-color: #28abb9;
+  text-align: center;
+  color: #fff;
+}
+
+.FTT-image {
+  padding: 2% 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/*Press logos*/
+#press {
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 10px 20px 50px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.row {
+  padding-left: 6%
+}
+
+.card_button:hover {
+  background-color: #a20a0a;
+}
+
+.pricing_header {
+  background-color: #28abb9;
+  color: #fff;
+  padding: 30px 0px 2px;
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .FTT-image {
+    position: static;
+  }
+
+  .navbar-brand{
+    margin-right:0px ;
+  }
+}
+
+#cta {
+  background-color: #28abb9;
+  color:#fff;
+  text-align: center;
+  padding:7% 15%;
+}
+
+.cta-heading{
+  font-size:3.5rem;
+
+}
+
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  padding:1% ;
+}
